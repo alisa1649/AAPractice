@@ -1,0 +1,35 @@
+
+
+div.extra > ul > li{
+  color: green;
+}
+
+
+li {
+  font-weight: bold;
+}
+
+div.powerful {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+div.extra li:last-child {
+  color: red;
+}
+
+h1 + * {
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 2px;
+}
+
+.powerful {
+  background-color: yellow;
+}
+#footer {
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 2px;
+}
